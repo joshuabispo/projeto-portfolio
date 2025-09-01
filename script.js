@@ -4,10 +4,10 @@ const menuIcon = document.getElementById("menu-icon");
 const menuLateral = document.createElement("ul");
 menuLateral.classList.add("menu-lateral");
 menuLateral.innerHTML = `
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Sobre</a></li>
-  <li><a href="#">Projetos</a></li>
-  <li><a href="#">Fale Comigo</a></li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#sobre">Sobre</a></li>
+  <li><a href="#projetos">Projetos</a></li>
+  <li><a href="#faleComigo">Fale Comigo</a></li>
 `;
 document.body.appendChild(menuLateral);
 
